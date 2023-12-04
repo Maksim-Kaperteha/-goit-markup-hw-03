@@ -355,10 +355,6 @@ address {
   margin-top: 28px;
 }
 
-.address-item-navigation:last-child {
-  margin-top: 12px;
-}
-
 .link-footer {
   color: rgba(255, 255, 255, 0.60);
   font-family: Roboto;

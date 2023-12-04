@@ -47,10 +47,7 @@ a {
 }
 
 /* Header */
-.header {
-  border-bottom: 1px solid #ECECEC;
-
-}
+.header {}
 
 .header-container {
   display: flex;
@@ -94,14 +91,19 @@ a {
 }
 
 .link {
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.item-navigation {
   background: var(--white-cl--);
   color: var(--black-cl--);
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .link:hover,
@@ -118,8 +120,6 @@ a {
 
 .item-navigation {
   margin-right: 30px;
-
-
 }
 
 .item-navigation:last-child {
@@ -159,6 +159,7 @@ a {
   background: var(--background-cl-black--);
   padding-top: 200px;
   padding-bottom: 200px;
+  border-top: 1px solid #ECECEC;
 }
 
 .hero-title {

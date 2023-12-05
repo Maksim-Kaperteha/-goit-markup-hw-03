@@ -47,7 +47,10 @@ a {
 }
 
 /* Header */
-.header {}
+.header {
+  border-bottom: 1px solid #ECECEC;
+  ;
+}
 
 .header-container {
   display: flex;
@@ -90,21 +93,20 @@ a {
   margin: 0;
 }
 
-.link {
-
+.item-navigation {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.item-navigation {
+.link {
   background: var(--white-cl--);
   color: var(--black-cl--);
-  font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
 
 }
+
 
 .link:hover,
 .link:focus {
@@ -159,7 +161,7 @@ a {
   background: var(--background-cl-black--);
   padding-top: 200px;
   padding-bottom: 200px;
-  border-top: 1px solid #ECECEC;
+
 }
 
 .hero-title {
@@ -281,9 +283,7 @@ a {
   margin-bottom: 50px;
 }
 
-.item-navigation {
-  background-color: var(--white-cl--);
-}
+.item-navigation {}
 
 .team-img {
   display: block;
@@ -353,6 +353,7 @@ a {
 
 address {
   margin-top: 28px;
+
 }
 
 .link-footer {
@@ -370,6 +371,10 @@ address {
   color: var(--blue-cl--);
 }
 
+.address-item-navigation:first-child {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
 
 /*Portofolio html*/
 

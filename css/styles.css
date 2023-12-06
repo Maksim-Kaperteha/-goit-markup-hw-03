@@ -94,11 +94,6 @@ a {
 }
 
 .item-navigation {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.link {
   background: var(--white-cl--);
   color: var(--black-cl--);
   font-weight: 500;
@@ -107,6 +102,10 @@ a {
 
 }
 
+.link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .link:hover,
 .link:focus {
@@ -361,7 +360,7 @@ address {
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
-  line-height: 1.71;
+  line-height: 1.14;
   letter-spacing: 0.42px;
   text-decoration: none;
 }
@@ -371,8 +370,11 @@ address {
   color: var(--blue-cl--);
 }
 
-.address-item-navigation:first-child {
+.list {
   margin-top: 12px;
+}
+
+.address-item-navigation:first-child {
   margin-bottom: 12px;
 }
 

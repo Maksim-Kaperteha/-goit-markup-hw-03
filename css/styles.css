@@ -93,16 +93,13 @@ a {
   margin: 0;
 }
 
-.item-navigation {
-  background: var(--white-cl--);
+.item-navigation {}
+
+.link {
   color: var(--black-cl--);
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-
-}
-
-.link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
